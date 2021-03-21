@@ -1,0 +1,29 @@
+
+
+.grid_container {
+    margin: 0.5em;
+    box-shadow: 0px 1px 3px #cdcacaa6;
+    padding: 0.5em 1em;
+    border: 2px solid #babfc7;   
+}
+
+#data_buttons button{
+    font-family: var(--standard-ff);
+    margin: 0.5em;
+    box-shadow: 0px 1px 3px #cdcacaa6;
+    padding: 0.5em 1em;
+    border: 2px solid #babfc7;
+    font-weight: 500;
+    background-color: #fafafa;
+    transition: 0.2s background ease-in, 0.2s color ease-in;
+}   
+
+#import-df {
+    float: left;
+}
+
+
+#import-df:hover {
+    background-color: #448d53;
+    color: #fff;
+}
