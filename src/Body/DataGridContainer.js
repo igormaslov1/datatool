@@ -118,11 +118,12 @@ function Content(props) {
     return (
         <div>
             <div id="data_buttons">
-                <button id="import-df">Import Dataframe</button>
-                <input type="file" id="files" name="files" onChange={readExcel} accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" />
+                {/* <button id="import-df">Import Dataframe</button> */}
+                <label class="upload_button"> 
+                    <input type="file" id="files" name="files" onChange={readExcel} accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" />
+                    Upload Data
+                </label>
             </div>
-            <br />
-            <br />
             <div class="grid_container">
                 <div className="ag-theme-alpine" style={{ height: 400, width: '100%' }}>
                     <AgGridReact rowData={rowData} columnDefs={colData} defaultColDef={columnDefs} />

@@ -1,10 +1,21 @@
 .header {
-    color: #fff;
-    padding: 25px 0;
-    text-align: center;
-    background: #0066b8;
-  }
-  .header img {
-    width: 100px;
-    height: 13px;
-  }
+  color: #fff;
+  padding: 25px 0;
+  text-align: center;
+  background-color: #035ea8;
+  background: url(https://chicago.gov/content/dam/city/homepage/HomepageBanners/2019/2019August.jpg);
+  background-size: cover;
+  background-position: inherit;
+  box-shadow: 0px 1px 6px silver;
+  background-blend-mode: color;
+  margin-bottom: 1em;
+} 
+
+h1 { 
+  text-shadow: 0px 1px 3px black;
+}
+
+.header img {
+  width: 100px;
+  height: 13px;
+}
