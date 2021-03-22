@@ -1,0 +1,8 @@
+.general_container {
+    margin: 0.5em;
+    box-shadow: 0px 1px 3px #cdcacaa6;
+    padding: 0.5em 1em;
+    border: 2px solid #babfc7;
+    height: 300;
+    width:100%;   
+}

@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-
+import "./ToolContainers.css"
 
 function Content(props){
 
@@ -9,8 +9,8 @@ function Content(props){
       }
 
     return (
-        <div>
-            <p>Descriptive Statistics</p>
+        <div class="general_container">
+            <h2 class="container_header">Descriptive Statistics</h2>
         </div>
     );
 }
