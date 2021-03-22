@@ -113,8 +113,7 @@ function Content(props) {
             // });
         };
         reader.readAsBinaryString(oFile);
-    }
-
+    }        
 
     return (
         <div>
