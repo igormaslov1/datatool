@@ -36,6 +36,15 @@ function Content(props) {
     function readExcel(oevent) {
         //Get the files from Upload control
         var oFile = oevent.target.files[0];
+        const formData = new FormData()
+        formData.append('file', oFile)
+        fetch('/convertFromExcelToPandas', {
+            method: 'POST',
+            body: formData
+          })
+        .then((response) => response.json())
+        .then((data) => console.log(data));
+        return;
         //Loop through files
         var sFilename = oevent.name;
         console.log(sFilename)
