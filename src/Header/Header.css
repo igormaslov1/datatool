@@ -3,16 +3,18 @@
   padding: 25px 0;
   text-align: center;
   background-color: #035ea8;
-  background: url(https://chicago.gov/content/dam/city/homepage/HomepageBanners/2019/2019August.jpg);
+  background: url("C:\Users\User 1\Desktop\datatool\src\Header\Static\chicago-skyline-photo-l.jpg");
   background-size: cover;
   background-position: inherit;
   box-shadow: 0px 1px 6px silver;
   background-blend-mode: color;
   margin-bottom: 1em;
+  height: 200px;
 } 
 
 h1 { 
   text-shadow: 0px 1px 3px black;
+  margin-top: 90px;
 }
 
 .header img {

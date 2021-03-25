@@ -44,7 +44,6 @@ function Content(props) {
           })
         .then((response) => response.json())
         .then((data) => console.log(data));
-        return;
         //Loop through files
         var sFilename = oevent.name;
         console.log(sFilename)
